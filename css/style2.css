@@ -1,0 +1,27 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #354052;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+a, a:hover{
+    color:#fff; 
+}
+
+li:hover{
+    background-color:#313B4C;
+}
+li:active{
+   background-color:#2D3646;
+}
