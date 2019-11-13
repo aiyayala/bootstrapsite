@@ -15,13 +15,31 @@
     transition: all 0.3s;
 }
 
+
+.sidebar-item {
+    padding: .625rem 1.5rem .625rem 2.75rem;
+    font-weight: 400;
+}
+.sidebar-droplist{
+    
+}
+
+.sidebar-dropdown{ 
+    padding: .625rem 1.5rem;
+    background-color: #2D3646;}
+
+
+.sidebar-link:active {background-color: blue; }
+
+.sidebar-dropdown:hover{background-color: black;}
+
+.sidebar-droplist:hover{
+    background-color: red;
+}
+
+
 a, a:hover{
     color:#fff; 
 }
 
-li:hover{
-    background-color:#313B4C;
-}
-li:active{
-   background-color:#2D3646;
-}
+ 
