@@ -136,12 +136,19 @@ a.download {
     background: #fff;
     color: #7386D5;
 }
-
-a.article, a.article:hover {
+a.download:hover {
     background: #6d7fcc !important;
     color: #fff !important;
 }
+a.email-me{
+    background: #6d7fcc ;
+    color: #fff ;
+}
 
+a.email-me:hover{
+    background: #fff;
+    color:#6d7fcc;
+}
 
 
 /* ---------------------------------------------------
@@ -212,7 +219,8 @@ a.article, a.article:hover {
 }
 
 .card-img{width: 90%;
-    padding: 30% 5% 0 5%;}
+    padding: 30% 5% 0 5% ; 
+}
  
 /* ---------------------------------------------------
     MEDIAQUERIES
