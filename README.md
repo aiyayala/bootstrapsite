@@ -1,5 +1,5 @@
  # Memo 
-a:after{
+.className:after{
   content: '';
   position: absolute;
   width: 0; height: 3px;
