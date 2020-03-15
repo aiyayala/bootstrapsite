@@ -146,9 +146,9 @@
                                         <div class="col-md">
                                             <div class="card-body">
                                                 
-                                                <p class="card-text">Would you Like to Enjoy Some Music and FILL OUT A <span class="red-text">SURVEY? </span> </p>
-                                               <small class="text-muted"> <a href="https://surveys.hotjar.com/s?siteId=1728970&surveyId=153528" target="_blank" onclick="play()">
-                                                   <button type="button" class="btn btn-success"   > YES, NO PROBLEM</button></a>
+                                                <p class="card-text">Would you Like to Enjoy Some <span class="red-text">Meow Music</span> and FILL OUT A <span class="red-text">SURVEY? </span> </p>
+                                               <small class="text-muted"> <a href="https://surveys.hotjar.com/s?siteId=1728970&surveyId=153528" target="_blank" onclick="play1()">
+                                                   <button type="button" class="btn btn-success"   > YES, MEOW</button></a>
                                                  </small> 
                                                                                                 </div>
                                         </div>
@@ -172,8 +172,8 @@
                                                 <h5 class="card-title"> Enjoy ~ </h5>
                                                  
                                                 
-                                                
-                                                 <iframe id="myplayer" width="560" height="315" src="https://www.youtube.com/embed/QH2-TGUlwu4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                <div id="player"><iframe  width="560" height="315" src="https://www.youtube.com/embed/QH2-TGUlwu4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </div>
+                                                 
                                                 
                                                 
                                                 
@@ -207,18 +207,25 @@
 
             </div>   </div>
  
-        <script>
+    <script>
+          var tag = document.createElement('script');
 
-            var player = document.getElementById("myplayer");
- 
-            function play() {
-                if(player) {
-                    player.playVideo();
-                }
-            }
+          tag.src = "https://www.youtube.com/iframe_api";
+          var firstScriptTag = document.getElementsByTagName('script')[0];
+          firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
+          var player1;
+         function onYouTubeIframeAPIReady() {
+            player1 = new YT.Player('player', {
+              height: '390',
+              width: '640',
+              videoId: 'QH2-TGUlwu4',});
+          }
+         function play1() { 
+            player1.playVideo();
+          }
 
- </script>
+         </script>
 
         <!-- jQuery CDN - Slim version (=without AJAX) -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
