@@ -132,16 +132,33 @@
                                             <div class="card-body">
                                                 <h5 class="card-title">🤖 HELLO</h5>
                                                 <p class="card-text"><em style="color:red; font-weight: 500;">Chun</em> is looking to talk with you! </p>
-                                               <small class="text-muted"><ul>
+                                               <small class="text-muted"> <a href="https://www.linkedin.com/in/w3bchunhong" target="_blank"><img src="svg/linkedin.svg" alt="..." class="social-icon"> </a>     
+                                                 <a href="mailto:linc01@mail.buffalostate.edu" target="_blank"><img src="svg/gmail.svg" alt="..." class="social-icon"> </a>     
+                                                 <a href="https://github.com/aiyayala" target="_blank"><img src="svg/github.svg" alt="..." class="social-icon"> </a>    
 
-                                                <li><a href="https://www.linkedin.com/in/w3bchunhong" target="_blank"><img src="svg/linkedin.svg" alt="..." class="social-icon"> </a>    </li>
-                                                <li><a href="mailto:linc01@mail.buffalostate.edu" target="_blank"><img src="svg/gmail.svg" alt="..." class="social-icon"> </a>    </li>
-                                                <li><a href="https://github.com/aiyayala" target="_blank"><img src="svg/github.svg" alt="..." class="social-icon"> </a>    </li>
-
-                                                </ul></small> 
+                                                 </small> 
                                                                                                 </div>
                                         </div>
-                                         </div></div></div> </div><!--end::Portlet2.1-->  
+                                         </div></div></div>
+                          <div class="portlet fluid">
+                                <div class="card mb-3"   >
+                                    <div class="row no-gutters">
+                                        <div class="col-md">
+                                            <div class="card-body">
+                                                
+                                                <p class="card-text">Would you Like to Enjoy Some Music and FILL OUT A <span class="red-text">SURVEY? </span> </p>
+                                               <small class="text-muted"> 
+                                                   <button type="button" class="btn btn-success"  > <a href="https://surveys.hotjar.com/s?siteId=1728970&surveyId=153528" target="_blank">YES, NO PROBLEM</a></button>
+                                                 </small> 
+                                                                                                </div>
+                                        </div>
+                                         </div></div></div>
+                        
+                        </div><!--end::Portlet2.1-->  
+                        
+                          
+                        
+                        
                         
                         <!--begin::Portlet2.2-->
                         <div class="col-lg-12 col-xl-8 order-lg-2 order-xl-1">  
@@ -152,9 +169,11 @@
                                     <div class="row no-gutters">
                                         <div class="col-md">
                                             <div class="card-body">
-                                                <h5 class="card-title"> :D</h5>
-                                                <p class="card-text"> Some Music?</p>
-                                                  <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLHYQ_sOpuRWAC8MvJvLE0HkW7Pil25RQi" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                                <h5 class="card-title"> Enjoy ~ </h5>
+                                                 
+                                                 <iframe id="myplayer" width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLHYQ_sOpuRWAC8MvJvLE0HkW7Pil25RQi" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>  
+                                                
+                                                 
                                                 
                                                 
                                                 
@@ -188,6 +207,18 @@
 
             </div>   </div>
  
+        <script>
+
+            var player = document.getElementById("myplayer");
+ 
+            function play() {
+                if(player) {
+                    player.playVideo();
+                }
+            }
+
+
+ </script>
 
         <!-- jQuery CDN - Slim version (=without AJAX) -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
