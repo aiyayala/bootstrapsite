@@ -68,6 +68,8 @@ a, a:hover, a:focus {
     width: 100%; 
     left:0; 
     background: #6C757D; }
+
+.red-text{ color:red; font-weight: 500; }
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
