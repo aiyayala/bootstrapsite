@@ -284,6 +284,27 @@ img.card-img-2 {
 }
 
 .card-img-3{width: 10%; margin: 5px; max-width: 120px;}
+
+.card-prj{
+  width: 350px;
+  height:470px;
+    margin: 20px auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+   
+}
+  
+.inner{
+    overflow: hidden;
+    
+}
+.inner img{
+   
+    transition: all 1s ease;
+}
+.inner:hover img{
+    transform: scale(1.2);
+}
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
