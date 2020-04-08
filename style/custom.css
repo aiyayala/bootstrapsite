@@ -305,6 +305,18 @@ img.card-img-2 {
 .inner:hover img{
     transform: scale(1.2);
 }
+
+.btn-prj{
+    position: absolute;
+    bottom: 15px;
+}
+
+.selected a{ 
+    color: #6D7FCC; 
+    background: #fff;
+   
+     
+}
 /* ----------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
