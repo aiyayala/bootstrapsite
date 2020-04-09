@@ -306,6 +306,8 @@ img.card-img-2 {
     transform: scale(1.2);
 }
 
+ 
+
 .btn-prj{
     position: absolute;
     bottom: 15px;
@@ -314,7 +316,8 @@ img.card-img-2 {
 .selected a{ 
     color: #6D7FCC; 
     background: #fff;
-   
+    border-top: 2px solid #6d7fcc; 
+   border-bottom: 2px solid #6d7fcc; 
      
 }
 /* ----------------------------------------------------
